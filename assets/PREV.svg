@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 29" width="16" height="29">
+	<title>PREV</title>
+	<defs>
+		<image  width="16" height="29" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAdAQMAAACZo378AAAAAXNSR0IB2cksfwAAAAZQTFRFFBQUFBQUWGAATAAAAAJ0Uk5TAP9bkSK1AAAANElEQVR4nGNgYGJgYGdg4GNgkGFgsGBgKGBgeMDAeICBuQFTGERagEX4wJqAaoAqsUgwAQBzMAiRSF4+YgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="PREV" style="opacity: .6" href="#img1" x="0" y="0"/>
+</svg>

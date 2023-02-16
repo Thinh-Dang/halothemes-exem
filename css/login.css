@@ -1,0 +1,66 @@
+.login-section {
+    inset: 0;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 3;
+}
+.login-section.opened {
+    opacity: 1;
+    pointer-events: all;
+}
+.login-section .section-wrapper {
+    width: 100%;
+    height: 100%;
+}
+.login-section .overlay {
+    background-color: #00000099;
+    width: 100%;
+    height: 100%;
+}
+.login-section .login-container {
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: min(37rem, 100%);
+    padding: 5.4rem min(3rem, 5%);
+    align-items: center;
+}
+.login-section .login-container .login-form{
+    width: 100%;
+}
+.login-section .login-container .login-form .login-title{
+    margin-bottom: 1rem;
+}
+.login-section .login-container .login-form .closeLogin-btn{
+    bottom: calc(100% + 1rem);
+    right: 0;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.login-section .login-container .login-form form .input-group{
+    padding: .8rem 0;
+    gap: 1rem;
+}
+.login-section .login-container .login-form form .input-group .input-label::after{
+    content: '*';
+}
+.login-section .login-container .login-form form .input-group input{
+    padding: 1.3rem 0;
+    border: 1px solid #cbcbcb;
+}
+.login-section .login-container .login-form form .btn-login{
+    margin: .5rem 0 2rem;
+    padding: 1.5rem 0;
+    letter-spacing: 1px;
+}
+.login-section .login-container .login-form form a{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 2.4rem;
+}
+.login-section .login-container .login-form form .btn-signin{
+    padding: 1.5rem 0;
+    letter-spacing: 1px;
+}

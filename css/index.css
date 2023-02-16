@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500&family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('./utils.css');
+@import url('./reset.css');
+
+
+@import url('./header.css');
+@import url('./main.css');
+@import url('./footer.css');
+@import url('./side-cart.css');
+@import url('./login.css');
+html {
+    font-size: 62.5%;
+    width: 100vw;
+}
+body {
+    min-width: 100vw;
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+    min-height: 100vh;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+    background-color: #fff;
+}
+header, main, footer {
+    max-width: 100%;
+    width: 100%;
+}
